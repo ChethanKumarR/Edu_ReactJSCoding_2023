@@ -1,0 +1,96 @@
+
+
+Extensions to Use as per Akshay Saini: 
+
+1. Better Comments 
+2. Bracket Pair Colorizer 
+3. ES7+ React/Redux/ 
+4. GitLens 
+5. Prettier 
+6. vscode-icons 
+Extra: Emmet 
+
+
+Homework: 
+
+1. Read about Emmet 
+2. What is CDN (Content Delivery Network)? 
+3. What is Cross-Origin? 
+4. What is the difference between async and defer? (Watch YT video of Akshay on this topic) 
+
+Coding Assignment: 
+1. Build the Boilerplate code using HTML, JS, React 
+
+**Imp: 
+
+When passing children in React, we pass it using array. 
+
+Interview Question: 
+
+1. React Overriding whatever is in root with Render and only showing what is in render() 
+
+Note: Make a GitHub Repo and have Theory & Coding Assignments in it. 
+
+
+
+
+Chapter 01 - Inception
+Link to my Code
+Theory -
+● What is Emmet?
+● Difference between a Library and Framework?
+● What is CDN? Why do we use it?
+● Why is React known as React?
+● What is crossorigin in script tag?
+● What is diference between React and ReactDOM
+● What is difference between react.development.js and react.production.js files via CDN?
+● What is async and defer? - see my Youtube video ;)
+Coding -
+● Set up all the tools in your laptop
+○ VS Code
+○ Chrome
+○ Extensions of Chrome
+● Create a new Git repo
+● Build your first Hello World program using,
+○ Using just HTML
+○ Using JS to manipulate the DOM
+○ Using React
+■ use CDN Links
+■ Create an Element
+■ Create nested React Elements
+■ Use root.render
+● Push code to Github (Theory as well as code)
+● Learn about Arrow Functions before the next class
+References:
+- https://beta.reactjs.org/apis/react/createElement
+- https://www.youtube.com/watch?v=IrHmpdORLu8
+
+
+●  What is Emmet?
+   Emmet helps us to write the HTML CSS faster by using simple abbrevations that are then converted into code blocks.
+
+● Difference between a Library and Framework?
+
+
+
+● What is CDN? Why do we use it?
+
+
+
+● Why is React known as React?
+
+      React is frontend lib which help to create single page application using component based structure
+
+● What is crossorigin in script tag?
+
+     If we serve react from CDN , we recommend to keep the crossorigin attribute set
+
+● What is difference between React and ReactDOM
+
+
+
+● What is difference between react.development.js and react.production.js files via CDN?
+
+
+
+● What is async and defer? - see my Youtube video ;)

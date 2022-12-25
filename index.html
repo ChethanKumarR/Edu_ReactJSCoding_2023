@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React JS</title>
+    
+  </head>
+  <body>
+    <div id="root">
+        <!-- <h1>Hello World</h1> -->
+        <!-- <h1 id="header">Header</h1> -->
+        <h1 id="title">No Rendered</h1>
+        <!-- <h1 id="footer">Footer</h1> -->
+        <!-- <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+        <h1 id="title">Hello World</h1>
+    </div>
+
+    <!-- Using JS to manipulate the DOM -->
+    <!-- <script>
+        const heading = document.createElement("h1");
+
+        heading.innerHTML = "Namaste Everyone from javascript";
+
+        const root =  document.getElementById("root");
+
+        root.appendChild(heading);
+    </script> -->
+
+    <!-- Using React CDN Links -->
+    <!-- Using React   
+    use CDN Links
+    Create an Element
+    Create nested React Elements
+    Use root.render -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- <script>
+        //const heading = React.createElement("h1", {}, "Namaste Everyone");
+        const heading = React.createElement(
+            "h1", 
+            {
+                id:"title",
+            }, 
+            "Namaste Everyone From React!"
+        );
+
+        console.log(heading);
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        //passing a react element inside the root
+        root.render(heading);
+    </script>    -->
+
+
+    <!-- <script>
+       // const element = createElement(type, props, ...children)
+        const heading1 = React.createElement(
+            "h1",
+            {
+                id:"title",
+            },
+            "Heading1"
+        );
+
+        const heading2 = React.createElement(
+            "h2",
+            {
+                id:"title",
+            },
+            "Heading2"
+        );
+
+        const container = React.createElement(
+            "div",
+            {
+                id:"container",
+            },
+            [heading1, heading2]
+
+        );
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        //passing a react element inside the root
+
+        root.render(container);
+
+    </script> -->
+    <script src="App.js"></script>
+  </body>
+</html>
